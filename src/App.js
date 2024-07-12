@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from './data.js';
-import Tours from './Component/Tours';
+import Tours from './Component/Tours.js';
 
 const App = () => {
   const [tours, setTours] = useState(data);
